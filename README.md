@@ -1,15 +1,17 @@
 
 # react-native-cardview-wayne
 
-## Getting started
+## 开始
 
 `$ npm install react-native-cardview-wayne --save`
+or
+`$ yarn add react-native-cardview-wayne`
 
 ### Mostly automatic installation
 
 `$ react-native link react-native-cardview-wayne`
 
-### Manual installation
+### 手动导入
 
 
 #### iOS
@@ -35,7 +37,7 @@
   	```
 
 
-## Usage
+## 使用方法
 ```javascript
 import RNCardview from 'react-native-cardview-wayne';
 
@@ -60,13 +62,13 @@ export default class App extends Component {
     }
 };
 ```
-### screenshots
+### 截图
 #### iOS
 ![iOS](https://github.com/wayne214/react-native-cardview-wayne/raw/master/screenshots/ios.png)
 #### android
 ![android](https://github.com/wayne214/react-native-cardview-wayne/raw/master/screenshots/android.png)
 
-## Attributes
+## 属性
 Name | Type | Desc
 ---|---|---
 cardElevation | Number | the elevation of the card view
