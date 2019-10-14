@@ -1,13 +1,13 @@
 
-# react-native-cardview
+# react-native-cardview-wayne
 
 ## Getting started
 
-`$ npm install react-native-cardview --save`
+`$ npm install react-native-cardview-wayne --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-cardview`
+`$ react-native link react-native-cardview-wayne`
 
 ### Manual installation
 
@@ -37,7 +37,7 @@
 
 ## Usage
 ```javascript
-import RNCardview from 'react-native-cardview';
+import RNCardview from 'react-native-cardview-wayne';
 
 // TODO: What to do with the module?
 RNCardview;

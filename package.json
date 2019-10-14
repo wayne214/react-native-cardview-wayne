@@ -1,16 +1,20 @@
 {
-  "name": "react-native-cardview",
+  "name": "react-native-cardview-wayne",
   "version": "1.0.0",
-  "description": "",
+  "description": "A ReactNative CardView Component for Android",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "react",
+    "android",
+    "cardview",
+    "react-native-component"
   ],
-  "author": "",
-  "license": "",
+  "author": "wayne",
+  "license": "MIT",
   "devDependencies": {
     "react": "^16.2.0",
     "react-native": "^0.53.0"
