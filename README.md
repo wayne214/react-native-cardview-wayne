@@ -73,3 +73,4 @@ cardElevation | Number | the elevation of the card view
 maxCardElevation | Number | if not set, equals the ``` cardElevation ``` default
 radius | Number | the border radius of the card view
 backgroundColor | String | the background color of the card view
+style | Object | set style of the card view
