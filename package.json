@@ -1,7 +1,7 @@
 {
   "name": "react-native-cardview-wayne",
   "version": "1.0.0",
-  "description": "A ReactNative CardView Component for Android",
+  "description": "A ReactNative CardView Component for Android and IOS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,10 @@
     "react",
     "android",
     "cardview",
-    "react-native-component"
+    "react-native-component",
+    "react-native-cardview",
+    "react-native-cardview-wayne",
+    "react-component"
   ],
   "author": "wayne",
   "license": "MIT",
