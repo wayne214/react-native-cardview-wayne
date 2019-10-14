@@ -40,6 +40,36 @@
 import RNCardview from 'react-native-cardview-wayne';
 
 // TODO: What to do with the module?
-RNCardview;
+export default class App extends Component {
+    render() {
+        return (
+				<CardView cardElevation={4}
+                          maxCardElevation={4}
+                          radius={10}
+                          backgroundColor={'#ffffff'}>
+                    <View style={{padding:10}}>
+                        <View>
+                            <Text>CardView for iOS and Android</Text>
+                        </View>
+                        <View>
+                            <Text>This is test</Text>
+                        </View>
+                    </View>
+                </CardView>
+        );
+    }
+};
 ```
-  
+### screenshots
+#### iOS
+![iOS](https://github.com/wayne214/react-native-cardview-wayne/raw/master/screenshots/ios.png)
+#### android
+![android](https://github.com/wayne214/react-native-cardview-wayne/raw/master/screenshots/android.png)
+
+## Attributes
+Name | Type | Desc
+---|---|---
+cardElevation | Number | the elevation of the card view
+maxCardElevation | Number | if not set, equals the ``` cardElevation ``` default
+radius | Number | the border radius of the card view
+backgroundColor | String | the background color of the card view
