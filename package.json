@@ -1,6 +1,6 @@
 {
   "name": "react-native-cardview-wayne",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A ReactNative CardView Component for Android and IOS",
   "main": "index.js",
   "scripts": {
