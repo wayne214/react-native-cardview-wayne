@@ -70,7 +70,7 @@ export default class App extends Component {
 
 ## 属性
 Name | Type | Desc | Platform
----|---|---
+---|---|---|---
 cardElevation | Number | the elevation of the card view | IOS、Android
 maxCardElevation | Number | if not set, equals the ``` cardElevation ``` default | Android
 radius | Number | the border radius of the card view | IOS、Android
