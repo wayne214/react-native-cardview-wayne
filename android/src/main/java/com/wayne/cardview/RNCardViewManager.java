@@ -45,6 +45,16 @@ public class RNCardViewManager extends ViewGroupManager<CardView> {
     public void setBackgroundColor(CardView view, String color) {
         view.setCardBackgroundColor(Color.parseColor(color == null || color.trim().equals("") ? "#ffffff" : color));
     }
+    // 是否使用PreventCornerOverlap
+    @ReactProp(name = "setPreventCornerOverlap", defaultBoolean = true)
+    public void setPreventCornerOverlap(CardView view, boolean bol) {
+        view.setPreventCornerOverlap(bol);
+    }
+    // 是否使用CompatPadding 设置内边距
+    @ReactProp(name = "setUseCompatPadding", defaultBoolean = true)
+    public void setUseCompatPadding(CardView view, boolean bol) {
+        view.setUseCompatPadding(bol);
+    }
 
     @Override
     public View getChildAt(CardView parent, int index) {

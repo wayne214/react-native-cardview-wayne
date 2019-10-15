@@ -69,10 +69,12 @@ export default class App extends Component {
 ![android](https://github.com/wayne214/react-native-cardview-wayne/raw/master/screenshots/android.png)
 
 ## 属性
-Name | Type | Desc
+Name | Type | Desc | Platform
 ---|---|---
-cardElevation | Number | the elevation of the card view
-maxCardElevation | Number | if not set, equals the ``` cardElevation ``` default
-radius | Number | the border radius of the card view
-backgroundColor | String | the background color of the card view
-style | Object | set style of the card view
+cardElevation | Number | the elevation of the card view | IOS、Android
+maxCardElevation | Number | if not set, equals the ``` cardElevation ``` default | Android
+radius | Number | the border radius of the card view | IOS、Android
+backgroundColor | String | the background color of the card view | IOS、Android
+style | Object | set style of the card view | IOS、Android
+setPreventCornerOverlap | Boolean | 是否使用PreventCornerOverlap | Android
+setUseCompatPadding | Boolean | 是否使用CompatPadding 设置内边距 | Android
