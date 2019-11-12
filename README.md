@@ -28,18 +28,18 @@ or
   - Add `new RNCardviewPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
-  	include ':react-native-cardview'
-  	project(':react-native-cardview').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-cardview/android')
+  	include ':react-native-cardview-wayne'
+  	project(':react-native-cardview-wayne').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-cardview-wayne/android')
   	```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
   	```
-      compile project(':react-native-cardview')
+      compile project(':react-native-cardview-wayne')
   	```
 
 
 ## 使用方法
 ```javascript
-import RNCardview from 'react-native-cardview-wayne';
+import CardView from 'react-native-cardview-wayne';
 
 // TODO: What to do with the module?
 export default class App extends Component {
