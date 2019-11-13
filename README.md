@@ -28,36 +28,44 @@ or
   - Add `new RNCardviewPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
-  	include ':react-native-cardview-wayne'
-  	project(':react-native-cardview-wayne').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-cardview-wayne/android')
+    include ':react-native-cardview-wayne'
+    project(':react-native-cardview-wayne').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-cardview-wayne/android')
   	```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
   	```
-      compile project(':react-native-cardview-wayne')
+    compile project(':react-native-cardview-wayne')
   	```
 
 
 ## 使用方法
 ```javascript
+import React, {Component} from 'react'
+import {
+    Text,
+    View,
+} from 'react-native'
+
 import CardView from 'react-native-cardview-wayne';
 
 // TODO: What to do with the module?
 export default class App extends Component {
     render() {
         return (
-				<CardView cardElevation={4}
-                          maxCardElevation={4}
-                          radius={10}
-                          backgroundColor={'#ffffff'}>
-                    <View style={{padding:10}}>
-                        <View>
-                            <Text>CardView for iOS and Android</Text>
-                        </View>
-                        <View>
-                            <Text>This is test</Text>
-                        </View>
+				<CardView
+                style={{marginHorizontal: 12}}
+                cardElevation={4}
+                maxCardElevation={4}
+                radius={10}
+                backgroundColor={'#ffffff'}>
+                <View style={{padding:10, margin: 12}}>
+                    <View>
+                        <Text>ReactNative CardView for iOS and Android</Text>
                     </View>
-                </CardView>
+                    <View>
+                        <Text>This is test</Text>
+                    </View>
+                </View>
+            </CardView>
         );
     }
 };
